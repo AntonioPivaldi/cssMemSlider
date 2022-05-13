@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(100deg, rgb(88, 28, 63) 5%, rgb(0, 0, 139) 50%, rgb(93, 1, 129) 90%);
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
     width: 100%;
     align-items: center;
@@ -188,4 +188,43 @@ nav {
 #b5:checked ~ .slider {
     transition: 0.3s;
     margin-left: -400%;
+}
+
+@media (max-width: 767px) {
+    .bottom {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .slide img {
+        max-width: 260px;
+    }
+
+    .slide__text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 399px) {
+    .button {
+        width: 0.6em;
+        height: 0.6em;
+    }
+
+    .button__container:hover .button {
+        background-color: rgb(199, 130, 66);
+        border: solid 4px rgb(199, 130, 66);
+        width: 0.6em;
+        height: 0.6em;
+        border-radius: 50%;
+        transition: 0.3s;
+    }
+
+    .slide img {
+        max-width: 200px;
+    }
+
+    .slide__text {
+        font-size: 12px;
+    }
 }
