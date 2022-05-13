@@ -12,36 +12,45 @@
 </head>
 <body>
     <div class="wrapper">
+        <input type="radio" id="b1" name="buttons" checked>
+        <input type="radio" id="b2" name="buttons">
+        <input type="radio" id="b3" name="buttons">
+        <input type="radio" id="b4" name="buttons">
+        <input type="radio" id="b5" name="buttons">
         <div class="slider">
             <div class="slide">
                 <img src="./assets/jpg/meme_1.jpg" alt="fat kit meme">
-                <p class="slide__text">Wow, that's literally me. (you will see inadequate memes
-                     here, you better quit this page asap (you were warned)).</p>
             </div>
             <div class="slide">
                 <img src="./assets/jpg/meme_2.jpg" alt="Zhenya meme">
-                <p class="slide__text">Don't tell it wasn't scary.</p>
             </div>
             <div class="slide">
                 <img src="./assets/jpg/meme_3.jpg" alt="preparation for coding">
-                <p class="slide__text">It seems, you don't even need any IDE's for coding.</p>
             </div>
             <div class="slide">
                 <img src="./assets/jpg/meme_4.jpg" alt="Joy Division meme">
-                <p class="slide__text">Such an interesting map. (R.I.P. Ian).</p>
             </div>
             <div class="slide">
                 <img src="./assets/jpg/meme_5.jpg" alt="prank">
-                <p class="slide__text">Hahahaha, gotcha!</p>
             </div>
         </div>
-        <nav>
-            <label><input class="button" type="radio" name="buttons" checked></label>
-            <input class="button" type="radio" name="buttons">
-            <input class="button" type="radio" name="buttons">
-            <input class="button" type="radio" name="buttons">
-            <input class="button" type="radio" name="buttons">
-        </nav>
+        <div class="bottom">
+            <div class="slide__descr">
+                <p class="slide__text mover">Wow, that's literally me. (you will see inadequate memes
+                    here, you better quit this page asap (you were warned)).</p>
+                <p class="slide__text">Don't tell it wasn't scary.</p>
+                <p class="slide__text">It seems, you don't even need any IDE's for coding.</p>
+                <p class="slide__text">Such an interesting map. (R.I.P. Ian).</p>
+                <p class="slide__text">Hahahaha, gotcha!</p>
+            </div>
+            <nav>
+                <label for="b1" id="l1" class="button__container"><p id="hov1" class="button"></p></label>
+                <label for="b2" id="l2" class="button__container"><p id="hov2" class="button"></p></label>
+                <label for="b3" id="l3" class="button__container"><p id="hov3" class="button"></p></label>
+                <label for="b4" id="l4" class="button__container"><p id="hov4" class="button"></p></label>
+                <label for="b5" id="l5" class="button__container"><p id="hov5" class="button"></p></label>
+            </nav>
+        </div>
     </div>
 </body>
 </html>
