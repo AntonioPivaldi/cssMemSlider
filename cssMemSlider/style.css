@@ -79,11 +79,6 @@ nav {
     transition: 0.3s;
 }
 
-/* .button:hover {
-    background-color: rgb(199, 130, 66);
-    border: solid 4px rgb(199, 130, 66);
-} */
-
 .button__container:hover .button {
     background-color: rgb(199, 130, 66);
     border: solid 4px rgb(199, 130, 66);
