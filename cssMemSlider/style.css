@@ -61,7 +61,7 @@ nav {
 }
 
 .slide img {
-    max-width: 400px;
+    max-width: 23em;
 }
 
 .button__container {
@@ -197,7 +197,7 @@ nav {
     }
 
     .slide img {
-        max-width: 260px;
+        max-width: 16em;
     }
 
     .slide__text {
